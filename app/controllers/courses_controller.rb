@@ -1,7 +1,11 @@
   
 class CoursesController < ApplicationController
-  route :resources, :courses
+  route :match, "/courses/students", :controller=>:courses, :action=>:students
+  def students
+    render :text=>"Student List for this course:<br/>BLARG, BOBBY<br/>CUIL, JOHNNY B."
+  end
   
+  route :resources, :courses
   # GET /courses
   # GET /courses.json
   def index
@@ -83,4 +87,11 @@ class CoursesController < ApplicationController
       format.json { head :no_content }
     end
   end
+  
+
+  route :get, :info, :on=>:member
+  def info
+    render :text=>"hello, cruel world."
+  end
+  
 end
