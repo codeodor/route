@@ -3,3 +3,5 @@ Route is an experiment to see what it would look like if Rails controllers speci
 It contains a simple Rails project which illustrates a proof of concept in https://github.com/codeodor/route/blob/master/app/controllers/courses_controller.rb. 
 
 The code behind the proof of concept is in a gem which you'll find here: https://github.com/codeodor/route/tree/master/vendor/gems/route
+
+It hooks into Rails with the railtie: https://github.com/codeodor/route/blob/master/vendor/gems/route/lib/route/railtie.rb and it does the work of sending the calls to specify routes in https://github.com/codeodor/route/blob/master/vendor/gems/route/lib/route/route.rb
