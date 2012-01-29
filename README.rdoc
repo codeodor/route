@@ -1,5 +1,5 @@
 Route is an experiment to see what it would look like if Rails controllers specified how to reach them, rather than having an omniscient routes.rb file.
 
-It contains a simple Rails project which illustrates a proof of concept in the app/controllers/courses_controller.rb file. 
+It contains a simple Rails project which illustrates a proof of concept in https://github.com/codeodor/route/blob/master/app/controllers/courses_controller.rb. 
 
 The code behind the proof of concept is in a gem which you'll find here: https://github.com/codeodor/route/tree/master/vendor/gems/route
