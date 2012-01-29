@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
   s.authors     = ["Sammy Larbi"]
   s.email       = ["sam@codeodor.com"]
   s.homepage    = "https://github.com/codeodor/route"
-  s.summary     = %q{Route is an experiment to see what it would look like if Rails controllers specified how to get them, rather than having an omniscient routes.rb file.}
+  s.summary     = %q{Route is an experiment to see what it would look like if Rails controllers specified how to reach themselves, rather than having an omniscient routes.rb file.}
   s.description = %q{}
 
   #s.rubyforge_project = ""
