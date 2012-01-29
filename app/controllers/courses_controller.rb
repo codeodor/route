@@ -1,6 +1,6 @@
   
 class CoursesController < ApplicationController
-  
+  route :resources, :courses
   
   # GET /courses
   # GET /courses.json
