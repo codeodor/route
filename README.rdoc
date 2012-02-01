@@ -5,3 +5,5 @@ It contains a simple Rails project which illustrates a proof of concept in https
 The code behind the proof of concept is in a gem which you'll find here: https://github.com/codeodor/route/tree/master/vendor/gems/route
 
 It hooks into Rails with the railtie: https://github.com/codeodor/route/blob/master/vendor/gems/route/lib/route/railtie.rb and it does the work of sending the calls to specify routes in https://github.com/codeodor/route/blob/master/vendor/gems/route/lib/route/route.rb
+
+See my blog post for discussion of why {having Rails controllers specify their own routes}[http://codeodor.com/index.cfm/2012/2/1/Rethinking-Routing-in-Rails/3498] could be a good (or bad) idea.
